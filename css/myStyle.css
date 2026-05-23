@@ -56,7 +56,13 @@
   border-radius: 8px;
 }
 
+.certi-link {
+      text-decoration: none;
+      color: white;
+    }
+
 .certi-link:hover {
+      color: #4bb6d1;
       text-decoration: underline;
     }
 
