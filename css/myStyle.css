@@ -1,3 +1,4 @@
+/******** Custom CSS ********/
 .project-card {
       border-radius: 8px;
       width: 100%;              /* controls the “square” feel */
@@ -11,12 +12,14 @@
 .project-title {
       font-size: 18px;
       font-weight: bold;
-      margin-bottom: 8px;
+      margin: 12px 0;
     }
 
 .project-description {
       font-size: 14px;
+      height: 120px; /* limits description height */
       margin-bottom: 12px;
+      overflow: hidden;
     }
 
 .project-link a {
@@ -25,5 +28,27 @@
     }
 
 .project-link a:hover {
+      text-decoration: underline;
+    }
+
+.my-carousel {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.my-carousel-items {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.my-carousel-items img {
+  height: 200px;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.certi-link:hover {
       text-decoration: underline;
     }
