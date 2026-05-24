@@ -122,6 +122,7 @@
 @media (max-width: 480px) {
   .text-left{
       height: 800px;
+      border: 1px solid red;
   }
       
   .img-flex {
