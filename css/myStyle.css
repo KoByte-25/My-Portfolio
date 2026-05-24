@@ -103,12 +103,12 @@
   transform: scale(1.08);
 }
 
+.custom-carousel-height {
+  height: 100%; /* Adjust this value as needed */
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .text-left{
-      height: 100%;
-  }
-      
   .img-flex {
     gap: 15px;
     padding: 15px;
@@ -120,10 +120,6 @@
 }
 
 @media (max-width: 480px) {
-  .text-left{
-      height: 1000px;
-  }
-      
   .img-flex {
     flex-direction: column;
     gap: 20px;
