@@ -105,6 +105,10 @@
 
 /* Mobile responsive */
 @media (max-width: 768px) {
+  .text-left{
+      height: auto;
+  }
+      
   .img-flex {
     gap: 15px;
     padding: 15px;
@@ -122,6 +126,10 @@
 }
 
 @media (max-width: 480px) {
+  .text-left{
+      height: auto;
+  }
+      
   .img-flex {
     flex-direction: column;
     gap: 20px;
