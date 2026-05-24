@@ -106,7 +106,7 @@
 /* Mobile responsive */
 @media (max-width: 768px) {
   .text-left{
-      height: auto;
+      height: 100px;
   }
       
   .img-flex {
@@ -127,7 +127,7 @@
 
 @media (max-width: 480px) {
   .text-left{
-      height: auto;
+      height: 100px;
   }
       
   .img-flex {
