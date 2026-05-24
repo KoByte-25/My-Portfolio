@@ -107,6 +107,7 @@
 @media (max-width: 768px) {
   .text-left{
       height: 1000px;
+      border: 1px solid red;
   }
       
   .img-flex {
